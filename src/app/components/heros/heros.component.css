@@ -1,0 +1,48 @@
+.hero {
+    display: flex;
+    padding: 10px 15px;
+    background-color: aliceblue;
+    border-bottom: 1px solid silver;
+}
+.hero:nth-child(even) {
+    background-color: azure;
+}
+.hero:last-of-type {
+    border-bottom: 0;
+}
+.hero .id {
+    flex: 1 1 40px;
+}
+.hero .content {
+    flex: 1 1 80px;
+}
+.hero.done .content {
+    text-decoration: line-through;
+}
+.hero-input {
+    display: block;
+    width: 100%;
+    padding: 8px 12px;
+    appearance: none;
+    background-color: beige;
+    margin-top: 12px;
+    font-size: 18px;
+    outline: none;
+}
+.hero-submit {
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+
+	background-color: rgb(241, 241, 1);
+	color: #FFF;
+	margin: 15px auto;
+
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
