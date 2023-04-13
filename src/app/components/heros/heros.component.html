@@ -1,7 +1,7 @@
 <div class="heros">
     <div class="hero" *ngFor="let hero of heros; let i = index;">
-        <div class="id">0</div>
-        <div class="content">App Hero</div>
+        <div class="id">{{ i }}</div>
+        <div class="content">{{hero.content}}</div>
         <button class="delete">Remove</button>
     </div>
 </div>
